@@ -57,5 +57,18 @@ services:
     depends_on:
       - postgres
       - graphql-engine
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    restart: always  
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./frontend:/app
+    environment:
+      - NODE_ENV=development
 volumes:
   db_data:
+  
+

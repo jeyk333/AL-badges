@@ -1,0 +1,40 @@
+@import 'tailwindcss/base';
+@import '@radix-ui/themes/styles.css';
+
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* colors */
+  --primary-dark: #006258;
+  --primary-light: #006258;
+  --primary-dark-hover: #8ab7b2;
+  --primary-light-hover: #3e8f77;
+  --primary-dark-disabled: #00625833;
+  --secondary-dark: #ffffff;
+  --secondary-light: #000000;
+  --text-primary-dark: #f7f7f8;
+  --text-primary-light: #0c0f0e;
+  --text-secondary-dark: #abafb4;
+  --text-secondary-light: #3b3b3b;
+  --text-button: #ffffff;
+  --elevation-dark: #080a0b;
+  --elevation-light: #f9f9f9;
+  --elevation-1-dark: #0c0e10;
+  --elevation-1-light: #f1f1f1;
+  --elevation-2-dark: #111315;
+  --elevation-2-light: #e8e8e8;
+  --elevation-3-dark: #16181a;
+  --elevation-3-light: #dfdfdf;
+  --success-main: #27d17f;
+  --success-main-bg: #27d17f1a;
+  --success-light: #28a745;
+  --error: #f44336;
+  --warning: #ffc107;
+
+  /* border radius */
+  --button-radius-rounded: 32px;
+  --radius-curved: 8px;
+  --corner-radius-rounded: 24px;
+  --content-radius-rounded: 12px;
+}
